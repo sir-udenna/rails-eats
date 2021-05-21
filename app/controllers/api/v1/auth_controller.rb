@@ -11,8 +11,6 @@ class Api::V1::AuthController < ApplicationController
                 # send an error
                 render json: {error: "Incorrect email or password"}
             end
-    
-    
         end
     
         # strong params
