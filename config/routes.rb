@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       resources :favorites
       post '/login', to: "auth#login"
       get '/yelp_restaurants', to: "restaurants#fetch_businesses"
+      get '/yelp_restaurants_info', to: "restaurants#fetch_businesses_info"
     end
   end
 end
