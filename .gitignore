@@ -25,3 +25,4 @@
 node_modules/.bin/loose-envify
 
 /config/master.key
+app/controllers/api/v1/restaurants_controller.rb
