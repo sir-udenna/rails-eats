@@ -23,3 +23,6 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 node_modules/.bin/loose-envify
+
+/config/master.key
+app/controllers/api/v1/restaurants_controller.rb
